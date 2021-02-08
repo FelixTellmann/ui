@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "author": "Felix Tellmann",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "dependencies": {
     "@types/node": "^14.14.25",
     "@types/react": "^17.0.1",
     "@types/styled-jsx": "^2.2.8",
+    "@zeit/next-sass": "^1.0.1",
     "next": "^10.0.6",
     "next-styled-system": "^3.0.5",
     "node-sass": "^5.0.0",
@@ -15,5 +24,16 @@
     "react-icons": "^4.2.0",
     "styled-jsx-plugin-sass": "^1.0.0",
     "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

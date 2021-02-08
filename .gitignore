@@ -1,2 +1,14 @@
-# Project exclude paths
-/node_modules/
+# Dependency directories
+node_modules/
+
+# next.js build output
+.next
+.idea
+.linaria-cache
+.git
+
+
+# production server output
+out
+.env
+.vercel
