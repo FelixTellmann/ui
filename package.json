@@ -1,0 +1,19 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "author": "Felix Tellmann",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.25",
+    "@types/react": "^17.0.1",
+    "@types/styled-jsx": "^2.2.8",
+    "next": "^10.0.6",
+    "next-styled-system": "^3.0.5",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "typescript": "^4.1.3"
+  }
+}
